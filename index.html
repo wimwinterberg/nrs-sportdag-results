@@ -49,23 +49,27 @@
         }
 
         .last-sponsor-date {
-            font-size: 0.5em;
-            opacity: 0.4;
-            display: block;
+            font-size   : 0.5em;
+            opacity     : 0.4;
+            display     : block;
             /* margin-left: 16px; */
-            margin-top: 5px;
-            margin-left: 2px;
+            margin-top  : 5px;
+            margin-left : 2px;
         }
 
+        .total-count {
+            font-size : 0.9em;
+        }
     </style>
 </head>
 <body>
      <div class="total-school-score">
          School totaal
-         <span class="score">&euro;84.00 <span style="font-size:0.6em;font-weight: normal">p/50pnt</span></span>
+         <span class="score">&euro;84.00 <span style="font-size:0.6em;font-weight: normal">per 50pnt</span></span>
+         <span class="total-count">65 sponsoren</span>
          <div class="last-sponsor-date">2021-09-19 10:23:51</div>
      </div>
-     
+
      <table class="table table-striped"
             data-toggle="table"
             data-sort-name="totalScore"
@@ -75,7 +79,7 @@
              <th class="place"></th>
              <th>Team</th>
              <th data-field="totalBonus" data-sortable="true">Sponsoren</th>
-             <th data-field="totalScore" data-sortable="true">Bedrag p/50pnt</th>
+             <th data-field="totalScore" data-sortable="true">&euro; per 50pnt</th>
          </tr>
          </thead>
                       <tr>
